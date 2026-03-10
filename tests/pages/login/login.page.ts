@@ -38,11 +38,5 @@ export class LoginPage {
         await this.locator.ent_password().fill(password);
         await this.locator.btn_login().click();
     }
-
     
-
-
-
-
-
 }
